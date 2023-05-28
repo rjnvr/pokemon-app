@@ -1,4 +1,4 @@
-
+![alt text](https://github.com/rjnvr/pokemon-app/blob/main/pokemonapp.png)
 
 ## How to Start
 
