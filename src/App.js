@@ -37,7 +37,7 @@ function App() {
   return (
     <div className='App'>
       <div className='TitleSection'>
-        <img src="./icon.png"></img>
+        <img src="./icon.png" alt=''></img>
         <h1>Pokemon Search</h1>
         <input type="text" onChange={(event)=> {
             setPokemonName(event.target.value);
@@ -49,7 +49,7 @@ function App() {
         ) : (
         <>
         <h1>{pokemonInfo.name}</h1>
-        <img src={pokemonInfo.img}/>
+        <img src={pokemonInfo.img} alt=""/>
         <h3>Species : {pokemonInfo.species}</h3>
         <h3>Type : {pokemonInfo.type}</h3>
         <h4>Hp : {pokemonInfo.hp}</h4>
